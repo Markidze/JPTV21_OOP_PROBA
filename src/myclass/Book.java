@@ -12,7 +12,7 @@ import java.util.Arrays;
  * @author pupil
  */
 public class Book {
-    private Author[] authors;
+    private Author[] authors = new Author[0];
     private String caption;
     
 
